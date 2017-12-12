@@ -1,4 +1,4 @@
-(defproject helloworld "0.1.0-SNAPSHOT"
+(defproject clojurepractice "0.1.0-SNAPSHOT"
 
   :description "FIXME: write description"
 
@@ -7,7 +7,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :main helloworld.core
+  :main clojurepractice.core
 
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src"]
@@ -19,7 +19,7 @@
                          :pretty-print true
                          :source-map true}}]}
 
-  :plugins [[lein-cljsbuild "1.0.6"]
+  :plugins [[lein-cljsbuild "1.0.6"]]
             ; [lein-figwheel "0.3.7"]]
 
 

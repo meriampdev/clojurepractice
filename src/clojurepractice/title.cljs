@@ -1,4 +1,4 @@
-(ns helloworld.title
+(ns clojurepractice.title
   (:require [cljs.core.async :refer (put!)]))
 
 (defn items-list [EVENTCHANNEL items active-item]
